@@ -1,0 +1,308 @@
+/*****  *****/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+}
+
+body {
+    font-size: 20px;
+    background-color: rgb(36, 46, 36);
+}
+
+/***** HEADER *****/
+.header-contents {
+margin: 2% 0 0 3%;
+}
+
+#header-nav {
+    background-color: rgb(201, 166, 69);
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    width:250px;
+    height:130px;
+    margin:10px 15px 10px 0;}
+
+/* to lower the navbar brand from edge of browser  */
+.navbar-brand {
+padding-top:30px;}
+
+/***** Restaurant Name *****/
+.navbar-brand h1 {
+    color: black;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px grey;
+    /* I don't want a change to letters casing */
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* controls the size of text box */
+    line-height: 1.5;}
+
+.navbar-brand a:link {
+    /* removing underlining deco from link */
+    text-decoration: none;}
+
+.navbar-brand p {
+    color: green;
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;}
+
+/* align span contents "halal certified" with center of halal logo vertically */
+.navbar-brand p span {
+    vertical-align: middle;}
+
+.navbar-nav .nav-link {
+    background-color: white;
+    border: 0.25px dotted black;
+    box-shadow: 1px 1px 4px white;
+}
+
+/***** buttons on the right *****/
+#nav-list {margin-top: 10px; position: absolute; top:10px; right:10px;}
+
+#nav-list li {padding: 10px; font-size: 1.1em; text-align: center;}
+
+#nav-list li a:link, #nav-list li a:visited {color:black; text-decoration: none;}
+
+#nav-list li a:hover {color:rgb(36, 46, 36);}
+/***** End Header *****/
+
+/***** Footer *****/
+.panel-footer {
+    margin-top:15px;
+    background-color: black;
+    padding: 15px;
+}
+.footfoot {
+    color:rgb(201, 166, 69);
+}
+.panel-footer div.row {
+    margin-bottom: 25px;
+}
+.panel-footer #hours, .panel-footer #address {
+    line-height: 2;
+}
+#hours > span, #address > span, #other > span {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#address p {
+    color:rgb(112, 99, 64);
+    font-size: 0.9em;
+    line-height: 1.8;
+}
+/***** End Footer *****/
+
+/***** Home page *****/
+#call-btn {padding:1px; 
+    border:0.5px solid rgb(59, 73, 65);
+    border-radius: 10px; 
+    margin-top: 5px; margin-left: auto; margin-right: auto; 
+    background-color:rgb(201, 166, 69); 
+    box-shadow: 1px 1px 1px khaki; 
+    /* this helps to keep contents in the center */
+    display:flex; 
+    justify-content: center;}
+#call-btn span {font-weight: bolder;}
+#call-btn div {color: green; text-shadow: 1px 1px 1px white;}
+#call-btn a {font-size: 1.25em; margin:auto;}
+#call-btn:hover {background: khaki;}
+
+#main-content {margin-top:1%; margin-left:auto; margin-right: auto; width:95vw;}
+
+.img-responsive {margin: 0; width:100%;}
+/***** End homepage *****/
+
+/***** Menu category page *****/
+#menu-categories-title {
+    color:rgb(201, 166, 69);
+}
+.disclaimer {
+    color:rgb(112, 99, 64);
+    font-size: 1.25em;
+}
+.category-tile {
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    width: 100%;
+    height: fit-content;
+    margin: 10px auto 10px auto;
+}
+.category-tile > img {
+    width:100%;
+    height:150px;
+    /* to make the image fit in and cut the rest */
+    object-fit:cover;
+}
+.category-tile span {
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    background-color: black;
+    opacity: 0.8;
+    color:rgb(201, 166, 69);
+    text-align: center;
+}
+.category-tile:hover {
+    border: 1.5px solid khaki;
+}
+/***** End of Menu category page *****/
+
+/***** Single Menu category page *****/
+#lunchmen {
+    margin-left: 10%;
+    margin-right: auto;
+}
+.menu-item-tile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* height to be defined */
+}
+.menu-item-tile hr {
+    width: 80%;
+    color:rgb(201, 166, 69);
+}
+.menu-item-photo {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+.menu-item-photo img {
+    width: 100%;
+    height:100px;
+    object-fit: cover;
+}
+.menu-item-photo div /** the number of item on menu */ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    background-color: rgb(201, 166, 69);
+    text-align: center;
+    color: black;
+}
+.menu-item-tile .menu-item-price {
+    color:rgb(201, 166, 69);
+    font-size: 1.1em;
+    margin-top: -15px;
+    margin-right: -15px;
+    background-color: black;
+    opacity: 0.8;
+    width:100%;
+}
+.menu-item-tile .menu-item-price span {
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+.menu-item-description {
+    color: rgb(201, 166, 69);
+}
+.menu-item-title {
+    margin-top: 15px;
+    text-shadow: 1px 1px 1px khaki;
+}
+
+/***** End of Single Menu category page *****/
+
+/***** tiles on the bottom *****/
+#home-tiles {position: relative;}
+
+#tile1, #tile2, #tile3 {
+    height: 150px;
+    width: 100%;
+    color:black;
+    border: 0.25 dotted khaki;
+    margin: 10px auto 15px auto;
+    position:relative; 
+    overflow: hidden;}
+
+#tile1:hover, #tile2:hover, #tile3:hover {border: 1.5px solid white;}
+
+#tile1 {
+    background: url('../images/spencer-davis-dnQ5sauaFz0-unsplash.jpg') no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+#tile2 {
+    background: url('../images/specials.jpg') no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+#tile3 {
+    background: url ('#') no-repeat;
+    background-position: center;}
+#tile1 span, #tile2 span, #tile3 span {
+    /* titles of tiles */
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25em;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+/***** Write to us page *****/
+#form-head {
+    text-align: center;
+    margin-top: 40px;
+}
+Form {
+    margin:20px;
+    color:rgb(201, 166, 69);
+}
+:focus {
+    box-shadow: 1px 1px 1px khaki;
+}
+
+/***** End of Write to us page *****/
+
+
+/***** small devices *****/
+@media (max-width: 767px) {
+#call-btn {width:30%;}
+.separatehr {width:50%; margin-left: auto; margin-right: auto;}
+.panel-footer section {
+    text-align: center;
+}
+}
+
+/***** medium devices *****/
+@media (min-width: 768px) and (max-width:991px) {
+/* header */
+#logo-img {
+    width:150px;
+    height:80px;
+    margin:5px 5px 5px 0;}
+#call-btn {width:20%;}
+.separatehr {width:0;}
+.menu-item-tile .menu-item-price {font-size: 0.8em;}
+}
+
+/***** large devices *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+/* header */
+#logo-img {
+    width:150px;
+    height:80px;
+    margin:5px 5px 5px 0;}
+#call-btn {width:20%;}
+.separatehr {width:0;}
+}
+
+/***** Xlarge *****/
+  @media (min-width: 1200px) {
+#call-btn {width:20%;}
+.separatehr {width:0;}
+}
