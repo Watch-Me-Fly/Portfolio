@@ -1,0 +1,1 @@
+Example use of HTML, CSS, Bootstrap to make a responsive dummy website
