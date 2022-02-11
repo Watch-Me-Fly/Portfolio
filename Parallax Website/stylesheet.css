@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    margin:0;
+}
+h1 {
+    font-size: 2.5em;
+}
+#smartsub {
+    font-style: italic;
+}
+.containers {
+    position: relative;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 80%;
+    width: 100%;
+}
+#header {
+    background-image: url(Images/objective.jpg);
+}
+#headparallax {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 25%;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+}
+a:hover {
+    color: rgb(228, 9, 155);
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+.parallax {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+}
+h2 {
+    font-size: 1.8em;
+    background-color: black;
+    opacity: 0.7;
+    width: 30%;
+    color:white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container1 {
+    background-image: url(Images/Specific.jpg);
+}
+#container2 {
+    background-image: url(Images/Measurable.jpg);
+}
+#container3 {
+    background-image: url(Images/Attainable.jpg);
+}
+#container4 {
+    background-image: url(Images/Relevant.jpg);
+}
+#container5 {
+    background-image: url(Images/TimeBound.jpg);
+}
+.selements {
+    width: 80%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+    Padding-Bottom: 10px;
+    font-size: 1.5em;
+}
+#Specific {
+    color: rgb(5, 133, 184);
+}
+#Measurable {
+    color: rgb(37, 185, 37);
+}
+#Attainable {
+    color: rgb(228, 205, 3);
+}
+#Relevant {
+    color: orangered;
+}
+#Time-Bound {
+    color: rgb(255, 0, 170);
+}
+footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer > div {
+    text-decoration: underline;
+    margin-bottom: 5px;
+    float: right;
+}
