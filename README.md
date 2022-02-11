@@ -18,7 +18,7 @@ HTML, CSS, & Bootstrap were used to create this page.<br/><br/>
 HTML, & CSS were used to create this page.<br/><br/>
 
 <i>Screenshot</i><br/>
-<img src="Parallax Website/screenshot.png"><br/>
+<img src="Parallax/Screenshot.png"><br/>
 
 
 
