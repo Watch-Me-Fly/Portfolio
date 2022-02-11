@@ -8,7 +8,7 @@ Personal projects made to prepare a portfolio.<br/>
 HTML, CSS, & Bootstrap were used to create this page.<br/><br/>
 
 <i>Screenshot</i><br/>
-<img src=" "><br/>
+<img src="Responsive-Restau/screenshot.png"><br/>
 
 
 <b><u>2- "Parallax Page" (
@@ -18,7 +18,7 @@ HTML, CSS, & Bootstrap were used to create this page.<br/><br/>
 HTML, & CSS were used to create this page.<br/><br/>
 
 <i>Screenshot</i><br/>
-<img src=" "><br/>
+<img src="Parallax Website/screenshot.png"><br/>
 
 
 
