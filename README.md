@@ -12,7 +12,7 @@ HTML, CSS, & Bootstrap were used to create this page.<br/><br/>
 
 
 <b><u>2- "Parallax Page" (
-  <a https://github.com/Watch-Me-Fly/Projects-Practicing-Portfolio/blob/main/Parallax/Index.html">GitHub code</a>  /   <a href="https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://github.com/Watch-Me-Fly/Projects-Practicing-Portfolio/blob/main/Parallax/Index.html">HTML preview</a>)
+  <a href="https://github.com/Watch-Me-Fly/Projects-Practicing-Portfolio/blob/main/Parallax/Index.html">GitHub code</a>  /   <a href="https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://github.com/Watch-Me-Fly/Projects-Practicing-Portfolio/blob/main/Parallax/Index.html">HTML preview</a>)
   </u></b><br/>
 <br/>
 HTML, & CSS were used to create this page.<br/><br/>
