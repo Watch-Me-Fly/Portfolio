@@ -109,3 +109,13 @@ footer > div {
     margin-bottom: 5px;
     float: right;
 }
+
+@media (max-width:500px) {
+    h1 {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.5em;
+        width: 50%;
+    }
+}
