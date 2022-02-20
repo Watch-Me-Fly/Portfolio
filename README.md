@@ -1,4 +1,4 @@
-# Projects-Practicing-Portfolio
+# Portfolio Projects
 Personal projects made to prepare a portfolio.<br/>
 
 <b><u>1- "Dummy Restaurant Page" (
