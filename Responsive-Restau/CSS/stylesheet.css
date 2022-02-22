@@ -4,12 +4,10 @@
     box-sizing: border-box;
     font-family: 'Great Vibes', cursive;
 }
-
 body {
     font-size: 20px;
     background-color: rgb(36, 46, 36);
 }
-
 /***** HEADER *****/
 .header-contents {
 margin: 2% 0 0 3%;
@@ -36,11 +34,11 @@ nav {
 #logo-img {
     width:250px;
     height:130px;
-    margin:10px 15px 10px 0;}
-
+    margin:10px 15px 10px 0;
+}
 .navbar-brand {
-padding-top:30px;}
-
+padding-top:30px;
+}
 /***** Restaurant Name *****/
 .navbar-brand h1 {
     color: black;
@@ -52,17 +50,17 @@ padding-top:30px;}
     margin-top: 0;
     margin-bottom: 0;
     /* controls the size of text box */
-    line-height: 1.5;}
-
+    line-height: 1.5;
+}
 .navbar-brand a:link {
-    /* removing underlining deco from link */
-    text-decoration: none;}
-
+    /* removing underline from link */
+    text-decoration: none;
+}
 .navbar-brand p {
     color: green;
     text-shadow: 1px 1px 1px white;
-    font-weight: bold;}
-
+    font-weight: bold;
+}
 /* align span contents "halal certified" with center of halal logo vertically */
 .navbar-brand p span {
     vertical-align: middle;}
@@ -71,7 +69,10 @@ padding-top:30px;}
 
 #nav-list li {padding: 10px; font-size: 1.1em; text-align: center;}
 
-#nav-list li a:link, #nav-list li a:visited {color:black; text-decoration: none;}
+#nav-list li a:link, #nav-list li a:visited {
+    color:black; 
+    text-decoration: none;
+}
 
 #nav-list li a:hover {color:rgb(36, 46, 36);}
 /***** End Header *****/
@@ -117,7 +118,12 @@ padding-top:30px;}
 #call-btn a {font-size: 1.25em; margin:auto;}
 #call-btn:hover {background: khaki;}
 
-#main-content {margin-top:1%; margin-left:auto; margin-right: auto; width:95vw;}
+#main-content {
+    margin-top:1%; 
+    margin-left:auto; 
+    margin-right: auto; 
+    width:95vw;
+}
 
 .img-responsive {margin: 0; width:100%;}
 /***** End homepage *****/
@@ -232,7 +238,8 @@ padding-top:30px;}
 #tile1:hover, #tile2:hover, #tile3:hover {border: 1.5px solid white;}
 
 #tile1 {
-    background: url('../images/spencer-davis-dnQ5sauaFz0-unsplash.jpg') no-repeat;
+    background: 
+    url('../images/spencer-davis-dnQ5sauaFz0-unsplash.jpg') no-repeat;
     background-size: 100%;
     background-position: center;
 }
@@ -261,52 +268,66 @@ padding-top:30px;}
 #form-head {
     text-align: center;
     margin-top: 40px;
+    font-size: 1.2em;
 }
 Form {
     margin:20px;
     color:rgb(201, 166, 69);
 }
+#FormF {
+    margin-left: 35%;
+    margin-right: auto;
+}
+label {
+    font-size: 1.2em;
+}
+input, select, textarea {
+    display:block;
+    width: 50%;
+}
+#btnsmt {
+    width: 20%;
+    margin-left: 30%;
+}
 :focus {
     box-shadow: 1px 1px 1px khaki;
 }
-
 /***** End of Write to us page *****/
-
 
 /***** small devices *****/
 @media (max-width: 767px) {
-#call-btn {width:30%;}
-.separatehr {width:50%; margin-left: auto; margin-right: auto;}
-.panel-footer section {
-    text-align: center;
+    #call-btn {width:30%;}
+    .separatehr {width:50%; margin-left: auto; margin-right: auto;}
+    .panel-footer section {
+        text-align: center;
+    }
 }
-}
-
 /***** medium devices *****/
 @media (min-width: 768px) and (max-width:991px) {
-/* header */
-#logo-img {
-    width:150px;
-    height:80px;
-    margin:5px 5px 5px 0;}
-#call-btn {width:20%;}
-.separatehr {width:0;}
-.menu-item-tile .menu-item-price {font-size: 0.8em;}
+    /* header */
+    #logo-img {
+        width:150px;
+        height:80px;
+        margin:5px 5px 5px 0;}
+    #call-btn {width:20%;}
+    .separatehr {width:0;}
+    .menu-item-tile .menu-item-price {font-size: 0.8em;
+    }
 }
-
 /***** large devices *****/
 @media (min-width: 992px) and (max-width: 1199px) {
 /* header */
-#logo-img {
-    width:150px;
-    height:80px;
-    margin:5px 5px 5px 0;}
-#call-btn {width:20%;}
-.separatehr {width:0;}
+    #logo-img {
+        width:150px;
+        height:80px;
+        margin:5px 5px 5px 0;}
+    #call-btn {width:20%;}
+    .separatehr {width:0;
+    }
 }
-
 /***** Xlarge *****/
   @media (min-width: 1200px) {
-#call-btn {width:20%;}
-.separatehr {width:0;}
+    #call-btn {width:20%;}
+    .separatehr {width:0;
+    }
 }
