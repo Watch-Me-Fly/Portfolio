@@ -69,13 +69,16 @@ h2 {
     background-image: url(Images/TimeBound.jpg);
 }
 .selements {
-    width: 80%;
+    width: 70%;
     padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 h3 {
-    Padding-Bottom: 10px;
+    Padding: 10px;
+    margin-bottom: 10px;
     font-size: 1.5em;
 }
 #Specific {
