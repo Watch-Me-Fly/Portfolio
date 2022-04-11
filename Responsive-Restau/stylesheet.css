@@ -1,93 +1,133 @@
-/*****  *****/
-
+/***** GENERAL *****/
 * {
     box-sizing: border-box;
     font-family: 'Great Vibes', cursive;
+    margin:0;
+    padding: 0;
 }
 body {
     font-size: 20px;
     background-color: rgb(36, 46, 36);
 }
+/***** END OF GENERAL *****/
+
 /***** HEADER *****/
-.header-contents {
-margin: 2% 0 0 3%;
-}
-nav {
-    position : relative;
-}
-#navbarNavAltMarkup {
-    position: absolute;
-    bottom: 3px;
-    left: 38%;
-    width: 50%;
-}
-.navbar-nav .nav-link {
-    background-color: rgb(177, 141, 41);
-    border-right: 1px dotted rgb(59, 73, 65);
-    box-shadow: 1px 1px 4px rgb(226, 202, 136);
-}
-#header-nav {
+header {
+    position: relative;
     background-color: rgb(201, 166, 69);
-    border-radius: 0;
-    border: 0;
+    padding: 10px;
+}
+.header-contents {
+    margin: 2% 0 0 3%;
 }
 #logo-img {
     width:250px;
     height:130px;
     margin:10px 15px 10px 0;
 }
-.navbar-brand {
-padding-top:30px;
-}
-/***** Restaurant Name *****/
 .navbar-brand h1 {
     color: black;
     font-size: 2em;
     font-weight: bolder;
     text-shadow: 1px 1px 1px grey;
-    /* I don't want a change to letters casing */
     text-transform: none;
     margin-top: 0;
     margin-bottom: 0;
-    /* controls the size of text box */
     line-height: 1.5;
 }
+.navbar-brand {
+    padding:30px;
+}
 .navbar-brand a:link {
-    /* removing underline from link */
     text-decoration: none;
 }
 .navbar-brand p {
     color: green;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 0.5px 0.5px 0.5px white;
     font-weight: bold;
 }
-/* align span contents "halal certified" with center of halal logo vertically */
 .navbar-brand p span {
-    vertical-align: middle;}
-/***** buttons on the right *****/
-#nav-list {margin-top: 10px; position: absolute; top:10px; right:10px;}
-
-#nav-list li {padding: 10px; font-size: 1.1em; text-align: center;}
-
+    vertical-align: middle;
+}
+/* buttons */
+#buttons {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 20%;
+}
+#call-btn {
+    display:flex; 
+    justify-content: center;
+    width:80%;
+    margin: 5px auto 0 auto;
+    border-radius: 20px;
+    border:0.8px dotted rgb(177, 141, 41);
+}
+#call-btn span {
+    font-weight: bolder;
+}
+#call-btn div {
+    display: inline;
+    color: green; 
+    text-shadow: 1px 1px 1px rgb(112, 99, 64);
+}
+#call-btn a {
+    font-size: 1.25em; 
+}
+#call-btn:hover {
+    background: rgba(226, 202, 136, 0.7);
+}
+/* end of buttons */
+#nav-list {
+    margin-top: 3px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#nav-list li {
+    font-size: 0.9em;
+    padding: 5px 10px;
+    text-align: center;
+}
 #nav-list li a:link, #nav-list li a:visited {
     color:black; 
     text-decoration: none;
 }
-
-#nav-list li a:hover {color:rgb(36, 46, 36);}
-/***** End Header *****/
-
-/***** Footer *****/
-.panel-footer {
-    margin-top:15px;
-    background-color: black;
-    padding: 15px;
+#nav-list li:hover {
+    background-color: rgba(226, 202, 136, 0.8);
+    border-radius: 20px;
 }
-.footfoot {
+/** END OF HEADER *****/
+
+/***** NAVIGATION BAR *****/
+nav {
+    position : relative;
+    background-color: rgb(201, 166, 69);
+    padding: 0 !important;
+}
+#navbarNavAltMarkup {
+    width: 100%;
+    background-color: rgb(177, 141, 41);
+}
+.navbar-nav {
+    max-width: 40%;
+    margin: 0 auto;
+}
+.nav-link:hover {
+    box-shadow: 1px 1px 4px rgb(226, 202, 136);
+    background-color: rgba(226, 202, 136, 0.3);
+}
+/***** END OF NAVIGATION BAR *****/
+
+/***** FOOTER *****/
+footer {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: black;
     color:rgb(201, 166, 69);
 }
 .panel-footer div.row {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .panel-footer #hours, .panel-footer #address {
     line-height: 2;
@@ -98,37 +138,22 @@ padding-top:30px;
 }
 #address p {
     color:rgb(112, 99, 64);
-    font-size: 0.9em;
     line-height: 1.8;
 }
-/***** End Footer *****/
+/***** END OF FOOTER *****/
 
-/***** Home page *****/
-#call-btn {padding:1px; 
-    border:0.5px solid rgb(59, 73, 65);
-    border-radius: 10px; 
-    margin-top: 5px; margin-left: auto; margin-right: auto; 
-    background-color:rgb(201, 166, 69); 
-    box-shadow: 1px 1px 1px khaki; 
-    /* this helps to keep contents in the center */
-    display:flex; 
-    justify-content: center;}
-#call-btn span {font-weight: bolder;}
-#call-btn div {color: green; text-shadow: 1px 1px 1px white;}
-#call-btn a {font-size: 1.25em; margin:auto;}
-#call-btn:hover {background: khaki;}
-
+/***** HOME PAGE *****/
 #main-content {
-    margin-top:1%; 
-    margin-left:auto; 
-    margin-right: auto; 
-    width:95vw;
+    margin: 1% auto;
+    width:96vw;
 }
+.img-responsive {
+    margin: 0; 
+    width:100%;
+}
+/***** END OF HOME PAGE *****/
 
-.img-responsive {margin: 0; width:100%;}
-/***** End homepage *****/
-
-/***** Menu category page *****/
+/***** MENU CATEGORY PAGE *****/
 #menu-categories-title {
     color:rgb(201, 166, 69);
 }
@@ -147,7 +172,6 @@ padding-top:30px;
 .category-tile > img {
     width:100%;
     height:150px;
-    /* to make the image fit in and cut the rest */
     object-fit:cover;
 }
 .category-tile span {
@@ -163,9 +187,9 @@ padding-top:30px;
 .category-tile:hover {
     border: 1.5px solid khaki;
 }
-/***** End of Menu category page *****/
+/***** END OF MENU CATEGORY PAGE *****/
 
-/***** Single Menu category page *****/
+/***** SINGLE MENU CATEGORY PAGE *****/
 #lunchmen {
     margin-left: 10%;
     margin-right: auto;
@@ -173,7 +197,6 @@ padding-top:30px;
 .menu-item-tile {
     margin-top: 20px;
     margin-bottom: 20px;
-    /* height to be defined */
 }
 .menu-item-tile hr {
     width: 80%;
@@ -191,7 +214,7 @@ padding-top:30px;
     height:100px;
     object-fit: cover;
 }
-.menu-item-photo div /** the number of item on menu */ {
+.menu-item-photo div {
     position: absolute;
     top: 0;
     left: 0;
@@ -220,51 +243,46 @@ padding-top:30px;
     margin-top: 15px;
     text-shadow: 1px 1px 1px khaki;
 }
+/***** END OF SINGLE MENU CATEGORY PAGE *****/
 
-/***** End of Single Menu category page *****/
+/***** TILES ON THE BOTTOM *****/
 
-/***** tiles on the bottom *****/
-#home-tiles {position: relative;}
-
+#tile1:hover, #tile2:hover, #tile3:hover {
+    border: 1.5px solid white;
+}
+#tile1 {
+    background: 
+    url('images/spencer-davis-dnQ5sauaFz0-unsplash.jpg') no-repeat;
+}
+#tile2 {
+    background: url('images/specials.jpg') no-repeat;
+}
+#tile3 {
+    background: url ('#') no-repeat;
+}
 #tile1, #tile2, #tile3 {
     height: 150px;
     width: 100%;
     color:black;
-    border: 0.25 dotted khaki;
-    margin: 10px auto 15px auto;
-    position:relative; 
-    overflow: hidden;}
-
-#tile1:hover, #tile2:hover, #tile3:hover {border: 1.5px solid white;}
-
-#tile1 {
-    background: 
-    url('../images/spencer-davis-dnQ5sauaFz0-unsplash.jpg') no-repeat;
+    margin: 15px auto;
+    position: relative; 
+    overflow: hidden;
     background-size: 100%;
     background-position: center;
 }
-#tile2 {
-    background: url('../images/specials.jpg') no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
-#tile3 {
-    background: url ('#') no-repeat;
-    background-position: center;}
 #tile1 span, #tile2 span, #tile3 span {
-    /* titles of tiles */
     position:absolute;
     bottom:0;
     right:0;
     width: 100%;
     text-align: center;
     font-size: 1.25em;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    opacity: 0.8;
 }
+/***** END OF TILES ON THE BOTTOM *****/
 
-/***** Write to us page *****/
+/***** WRITE TO IS PAGE *****/
 #form-head {
     text-align: center;
     margin-top: 40px;
@@ -292,42 +310,69 @@ input, select, textarea {
 :focus {
     box-shadow: 1px 1px 1px khaki;
 }
-/***** End of Write to us page *****/
+/***** END OF WRITE TO IS PAGE *****/
 
-/***** small devices *****/
+/***** MEDIA QUERIES *****/
+/** SMALL **/
 @media (max-width: 767px) {
-    #call-btn {width:30%;}
-    .separatehr {width:50%; margin-left: auto; margin-right: auto;}
+    #buttons {
+        width: 20%;
+        display: none;
+    }
+    #call-btn a {
+        font-size: 0.9em; 
+    }
+    .separatehr {
+        width:50%; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
     .panel-footer section {
         text-align: center;
     }
 }
-/***** medium devices *****/
+/** MEDIUM **/
 @media (min-width: 768px) and (max-width:991px) {
     /* header */
     #logo-img {
         width:150px;
         height:80px;
-        margin:5px 5px 5px 0;}
-    #call-btn {width:20%;}
-    .separatehr {width:0;}
-    .menu-item-tile .menu-item-price {font-size: 0.8em;
+        margin:5px 5px 5px 0;
+    }
+    #buttons {
+        width: 20%;
+    }
+    #call-btn a {
+        font-size: 1.1em; 
+    }
+    .separatehr {
+        width:0;
+    }
+    .menu-item-tile .menu-item-price {
+        font-size: 0.8em;
     }
 }
-/***** large devices *****/
+/** LARGE **/
 @media (min-width: 992px) and (max-width: 1199px) {
-/* header */
-    #logo-img {
-        width:150px;
-        height:80px;
-        margin:5px 5px 5px 0;}
-    #call-btn {width:20%;}
-    .separatehr {width:0;
+    /* header */
+        #logo-img {
+            width:150px;
+            height:80px;
+            margin:5px 5px 5px 0;
+        }
+        .separatehr {
+            width:0;
+        }
+        #call-btn a {
+            font-size: 1.1em; 
+        }
+        #buttons {
+            width: 30%;
+        }
     }
-}
-/***** Xlarge *****/
-  @media (min-width: 1200px) {
-    #call-btn {width:20%;}
-    .separatehr {width:0;
+/** X-LARGE **/
+@media (min-width: 1200px) {
+    .separatehr {
+        width:0;
     }
 }
