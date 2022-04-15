@@ -31,10 +31,10 @@ HTML, CSS, & JavaScript were used to create this page.<br/><br/>
 <img src="manualLike-sideMenu/Screenshot.png"><br/>
 
 <b><u>4- "Tourism page" (
-  <a href="https://github.com/Watch-Me-Fly/Portfolio/tree/main/Riyadh">GitHub code</a>  /   <a href="https://htmlpreview.github.io/?https://github.com/Watch-Me-Fly/Portfolio/tree/main/Riyadh">HTML preview</a>)
+  <a href="https://github.com/Watch-Me-Fly/Portfolio/tree/main/Riyadh">GitHub code</a>  /   <a href="https://htmlpreview.github.io/?https://github.com/Watch-Me-Fly/Portfolio/blob/main/Riyadh/index.html">HTML preview</a>)
   </u></b><br/>
 <br/>
 HTML, CSS, & JavaScript were used to create this page.<br/><br/>
 
 <i>Screenshot</i><br/>
-<img src="Riyadh/screenshot.png"><br/>
+<img src="Riyadh/Screenshot.png"><br/>
